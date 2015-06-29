@@ -1,0 +1,34 @@
+[Mon Jun 29 16:30:02.787199 2015] [mpm_winnt:notice] [pid 23436:tid 672] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Jun 29 16:30:02.787199 2015] [mpm_winnt:notice] [pid 23436:tid 672] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Jun 29 16:30:02.787199 2015] [core:notice] [pid 23436:tid 672] AH00094: Command line: 'L:\\wamp2\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d L:/wamp2/bin/apache/apache2.4.9'
+[Mon Jun 29 16:30:02.790200 2015] [mpm_winnt:notice] [pid 23436:tid 672] AH00418: Parent: Created child process 23588
+[Mon Jun 29 16:30:04.216146 2015] [mpm_winnt:notice] [pid 23588:tid 520] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 29 16:42:33.811884 2015] [mpm_winnt:notice] [pid 23436:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 29 16:42:35.862245 2015] [mpm_winnt:notice] [pid 23588:tid 520] AH00364: Child: All worker threads have exited.
+[Mon Jun 29 16:42:35.936293 2015] [mpm_winnt:notice] [pid 23436:tid 672] AH00430: Parent: Child process 23588 exited successfully.
+[Mon Jun 29 16:42:39.403593 2015] [mpm_winnt:notice] [pid 17824:tid 680] AH00455: Apache/2.4.9 (Win64) PHP/5.5.12 configured -- resuming normal operations
+[Mon Jun 29 16:42:39.404593 2015] [mpm_winnt:notice] [pid 17824:tid 680] AH00456: Apache Lounge VC11 Server built: Mar 16 2014 12:42:59
+[Mon Jun 29 16:42:39.404593 2015] [core:notice] [pid 17824:tid 680] AH00094: Command line: 'L:\\wamp2\\bin\\apache\\apache2.4.9\\bin\\httpd.exe -d L:/wamp2/bin/apache/apache2.4.9'
+[Mon Jun 29 16:42:39.408596 2015] [mpm_winnt:notice] [pid 17824:tid 680] AH00418: Parent: Created child process 5712
+[Mon Jun 29 16:42:42.028333 2015] [mpm_winnt:notice] [pid 5712:tid 392] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 29 16:43:29.336375 2015] [authz_core:error] [pid 5712:tid 1084] [client ::1:5639] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.337375 2015] [authz_core:error] [pid 5712:tid 1076] [client ::1:5641] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.339377 2015] [authz_core:error] [pid 5712:tid 1080] [client ::1:5640] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.347381 2015] [authz_core:error] [pid 5712:tid 1072] [client ::1:5642] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.479469 2015] [authz_core:error] [pid 5712:tid 1084] [client ::1:5639] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.480470 2015] [authz_core:error] [pid 5712:tid 1076] [client ::1:5641] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.481471 2015] [authz_core:error] [pid 5712:tid 1080] [client ::1:5640] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:29.484472 2015] [authz_core:error] [pid 5712:tid 1072] [client ::1:5642] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/lumen/
+[Mon Jun 29 16:43:56.216517 2015] [authz_core:error] [pid 5712:tid 1080] [client ::1:5673] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.218519 2015] [authz_core:error] [pid 5712:tid 1076] [client ::1:5674] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.220519 2015] [authz_core:error] [pid 5712:tid 1084] [client ::1:5675] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.220519 2015] [authz_core:error] [pid 5712:tid 1088] [client ::1:5676] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.344602 2015] [authz_core:error] [pid 5712:tid 1088] [client ::1:5676] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.344602 2015] [authz_core:error] [pid 5712:tid 1084] [client ::1:5675] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.346603 2015] [authz_core:error] [pid 5712:tid 1080] [client ::1:5673] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.348604 2015] [authz_core:error] [pid 5712:tid 1076] [client ::1:5674] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.620895 2015] [authz_core:error] [pid 5712:tid 1072] [client ::1:5671] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:43:56.621895 2015] [authz_core:error] [pid 5712:tid 1088] [client ::1:5676] AH01630: client denied by server configuration: C:/Apache24, referer: http://localhost/laravel/
+[Mon Jun 29 16:47:04.925808 2015] [mpm_winnt:notice] [pid 17824:tid 680] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 29 16:47:06.928137 2015] [mpm_winnt:notice] [pid 5712:tid 392] AH00364: Child: All worker threads have exited.
+[Mon Jun 29 16:47:06.982172 2015] [mpm_winnt:notice] [pid 17824:tid 680] AH00430: Parent: Child process 5712 exited successfully.
